@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d5bbaa967a5e8c4faae3406938cae9f, type: 3}
+  m_Name: HexMapGenerator01
+  m_EditorClassIdentifier: 
+  mapName: cool_map
+  width: 6
+  height: 6
+  hexCells:
+  - x: 0
+    z: 0
+    raceType: 1
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 1
+    z: 0
+    raceType: 1
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 0
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 2
+    z: 0
+    raceType: 1
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 3
+    z: 0
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 4
+    z: 0
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 5
+    z: 0
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 0
+    z: 1
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 0
+    hasEnemy: 1
+    hasPlayer: 0
+  - x: 1
+    z: 1
+    raceType: 1
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 2
+    z: 1
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 0
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 3
+    z: 1
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 4
+    z: 1
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 5
+    z: 1
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 0
+    hasEnemy: 1
+    hasPlayer: 0
+  - x: 0
+    z: 2
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 1
+    z: 2
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 0
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 2
+    z: 2
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 3
+    z: 2
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 4
+    z: 2
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 0
+    hasEnemy: 1
+    hasPlayer: 0
+  - x: 5
+    z: 2
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 1
+    hasPlayer: 0
+  - x: 0
+    z: 3
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 0
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 1
+    z: 3
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 2
+    z: 3
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 3
+    z: 3
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 4
+    z: 3
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 0
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 5
+    z: 3
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 0
+    z: 4
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 1
+    z: 4
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 1
+    hasEnemy: 1
+    hasPlayer: 0
+  - x: 2
+    z: 4
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 3
+    z: 4
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 0
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 4
+    z: 4
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 5
+    z: 4
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 0
+    z: 5
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 1
+    z: 5
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 0
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 2
+    z: 5
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 1
+    hasStation: 0
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 3
+    z: 5
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 4
+    z: 5
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 1
+    hasEnemy: 0
+    hasPlayer: 0
+  - x: 5
+    z: 5
+    raceType: 0
+    mapScriptableData: {fileID: 0}
+    hasPlanet: 0
+    hasStation: 0
+    hasEnemy: 1
+    hasPlayer: 0
